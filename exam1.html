@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <link rel="stylesheet" href="./exam1.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&family=Source+Sans+Pro:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,200;1,300;1,400;1,600;1,700;1,900&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css">
+</head>
+<body>
+    <header class="exam1">
+        <div class="menu">
+            <h3 class="logo">LOGO</h3>
+            <a href="#">
+            <ul class="menu-items">
+                <li>About</li>
+                <li>Portfolio</li>
+                <li>Blog </li>
+                <li>Shop</li>
+                <li>Contact Us</li>
+            </ul>
+            </a>
+        </div>
+    
+        <h2 class="title">We create design</h2>
+        <span>Quis autem vel eum iure reprehenderit qui in ea voluptate velit</span>
+        <a href="#" class="btn-link">
+            <button class="btn">Explore</button>
+        </a>
+    </div>
+    </header>
+
+<section class="container">
+        <div class="content">
+          <!-- left part-->
+          <div class="left-part-of-page">
+  <h2>Welcome to Our 
+    Business Solutions</h2>
+  <p>Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit quo minus id quod maxime placeat facere possimus, omnis voluptas assumenda est, omnis dolor repellendus. </p>
+  
+  
+  <!--Javascript code-->
+  <div class="javascript-progress-bar-area">
+  <div style="height: 100%; width: 100%;">
+      <div class="col1">
+          
+          <h5 data-value="95">Strategic Consulting</h5>
+          <div class="meter" style="width: 570px;">
+              <span style="width: 95%; border-radius: 10px"></span>
+          </div>
+      <br>
+      <h5 data-value="89">Market Research</h5>
+      <div class="meter" style="width: 570px;">
+              <span style="width: 89%; border-radius: 10px"></span>
+          </div>
+      <br>
+      <h5 data-value="73">Sales Services</h5>
+      <div class="meter" style="width: 570px;">
+              <span style="width: 73%; border-radius: 10px"></span>
+          </div>
+    </div>
+  
+    
+      
+  
+        <script>
+             $(".meter > span").each(function() {
+                $(this)
+                    .data("origWidth", $(this).width())
+                    .width(0)
+                    .animate({
+                        width: $(this).data("origWidth")
+                    }, 1200);
+            });
+        </script>
+  </div>
+  </div>
+  </div>
+  <!--end of Javascript code-->
+  
+         <!--right part-->
+  
+         <div class="right-part-of-page">
+           <img class="hand" src="../imgs/iphone-in-hand-without-background.png" alt="">
+         </div>
+  
+      </div>
+    </section>
+</body>
+</html>
